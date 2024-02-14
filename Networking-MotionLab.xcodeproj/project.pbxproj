@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		437509C12B7CED9300F0B5B2 /* Networking_MotionLabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437509C02B7CED9300F0B5B2 /* Networking_MotionLabApp.swift */; };
+		437509C32B7CED9300F0B5B2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437509C22B7CED9300F0B5B2 /* ContentView.swift */; };
+		437509C52B7CED9700F0B5B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437509C42B7CED9700F0B5B2 /* Assets.xcassets */; };
+		437509C82B7CED9700F0B5B2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 437509C72B7CED9700F0B5B2 /* Preview Assets.xcassets */; };
+		437509D22B7CED9800F0B5B2 /* Networking_MotionLabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437509D12B7CED9800F0B5B2 /* Networking_MotionLabTests.swift */; };
+		437509DC2B7CED9800F0B5B2 /* Networking_MotionLabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437509DB2B7CED9800F0B5B2 /* Networking_MotionLabUITests.swift */; };
+		437509DE2B7CED9800F0B5B2 /* Networking_MotionLabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437509DD2B7CED9800F0B5B2 /* Networking_MotionLabUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		437509CE2B7CED9800F0B5B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437509B52B7CED9300F0B5B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437509BC2B7CED9300F0B5B2;
+			remoteInfo = "Networking-MotionLab";
+		};
+		437509D82B7CED9800F0B5B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 437509B52B7CED9300F0B5B2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 437509BC2B7CED9300F0B5B2;
+			remoteInfo = "Networking-MotionLab";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		437509BD2B7CED9300F0B5B2 /* Networking-MotionLab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Networking-MotionLab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437509C02B7CED9300F0B5B2 /* Networking_MotionLabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking_MotionLabApp.swift; sourceTree = "<group>"; };
+		437509C22B7CED9300F0B5B2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		437509C42B7CED9700F0B5B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		437509C72B7CED9700F0B5B2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		437509CD2B7CED9800F0B5B2 /* Networking-MotionLabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Networking-MotionLabTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437509D12B7CED9800F0B5B2 /* Networking_MotionLabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking_MotionLabTests.swift; sourceTree = "<group>"; };
+		437509D72B7CED9800F0B5B2 /* Networking-MotionLabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Networking-MotionLabUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		437509DB2B7CED9800F0B5B2 /* Networking_MotionLabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking_MotionLabUITests.swift; sourceTree = "<group>"; };
+		437509DD2B7CED9800F0B5B2 /* Networking_MotionLabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking_MotionLabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		437509BA2B7CED9300F0B5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437509CA2B7CED9800F0B5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437509D42B7CED9800F0B5B2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		437509B42B7CED9300F0B5B2 = {
+			isa = PBXGroup;
+			children = (
+				437509BF2B7CED9300F0B5B2 /* Networking-MotionLab */,
+				437509D02B7CED9800F0B5B2 /* Networking-MotionLabTests */,
+				437509DA2B7CED9800F0B5B2 /* Networking-MotionLabUITests */,
+				437509BE2B7CED9300F0B5B2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		437509BE2B7CED9300F0B5B2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				437509BD2B7CED9300F0B5B2 /* Networking-MotionLab.app */,
+				437509CD2B7CED9800F0B5B2 /* Networking-MotionLabTests.xctest */,
+				437509D72B7CED9800F0B5B2 /* Networking-MotionLabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		437509BF2B7CED9300F0B5B2 /* Networking-MotionLab */ = {
+			isa = PBXGroup;
+			children = (
+				437509C02B7CED9300F0B5B2 /* Networking_MotionLabApp.swift */,
+				437509C22B7CED9300F0B5B2 /* ContentView.swift */,
+				437509C42B7CED9700F0B5B2 /* Assets.xcassets */,
+				437509C62B7CED9700F0B5B2 /* Preview Content */,
+			);
+			path = "Networking-MotionLab";
+			sourceTree = "<group>";
+		};
+		437509C62B7CED9700F0B5B2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				437509C72B7CED9700F0B5B2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		437509D02B7CED9800F0B5B2 /* Networking-MotionLabTests */ = {
+			isa = PBXGroup;
+			children = (
+				437509D12B7CED9800F0B5B2 /* Networking_MotionLabTests.swift */,
+			);
+			path = "Networking-MotionLabTests";
+			sourceTree = "<group>";
+		};
+		437509DA2B7CED9800F0B5B2 /* Networking-MotionLabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				437509DB2B7CED9800F0B5B2 /* Networking_MotionLabUITests.swift */,
+				437509DD2B7CED9800F0B5B2 /* Networking_MotionLabUITestsLaunchTests.swift */,
+			);
+			path = "Networking-MotionLabUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		437509BC2B7CED9300F0B5B2 /* Networking-MotionLab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437509E12B7CED9800F0B5B2 /* Build configuration list for PBXNativeTarget "Networking-MotionLab" */;
+			buildPhases = (
+				437509B92B7CED9300F0B5B2 /* Sources */,
+				437509BA2B7CED9300F0B5B2 /* Frameworks */,
+				437509BB2B7CED9300F0B5B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Networking-MotionLab";
+			productName = "Networking-MotionLab";
+			productReference = 437509BD2B7CED9300F0B5B2 /* Networking-MotionLab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		437509CC2B7CED9800F0B5B2 /* Networking-MotionLabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437509E42B7CED9800F0B5B2 /* Build configuration list for PBXNativeTarget "Networking-MotionLabTests" */;
+			buildPhases = (
+				437509C92B7CED9800F0B5B2 /* Sources */,
+				437509CA2B7CED9800F0B5B2 /* Frameworks */,
+				437509CB2B7CED9800F0B5B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437509CF2B7CED9800F0B5B2 /* PBXTargetDependency */,
+			);
+			name = "Networking-MotionLabTests";
+			productName = "Networking-MotionLabTests";
+			productReference = 437509CD2B7CED9800F0B5B2 /* Networking-MotionLabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		437509D62B7CED9800F0B5B2 /* Networking-MotionLabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 437509E72B7CED9800F0B5B2 /* Build configuration list for PBXNativeTarget "Networking-MotionLabUITests" */;
+			buildPhases = (
+				437509D32B7CED9800F0B5B2 /* Sources */,
+				437509D42B7CED9800F0B5B2 /* Frameworks */,
+				437509D52B7CED9800F0B5B2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				437509D92B7CED9800F0B5B2 /* PBXTargetDependency */,
+			);
+			name = "Networking-MotionLabUITests";
+			productName = "Networking-MotionLabUITests";
+			productReference = 437509D72B7CED9800F0B5B2 /* Networking-MotionLabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		437509B52B7CED9300F0B5B2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					437509BC2B7CED9300F0B5B2 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					437509CC2B7CED9800F0B5B2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 437509BC2B7CED9300F0B5B2;
+					};
+					437509D62B7CED9800F0B5B2 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 437509BC2B7CED9300F0B5B2;
+					};
+				};
+			};
+			buildConfigurationList = 437509B82B7CED9300F0B5B2 /* Build configuration list for PBXProject "Networking-MotionLab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 437509B42B7CED9300F0B5B2;
+			productRefGroup = 437509BE2B7CED9300F0B5B2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				437509BC2B7CED9300F0B5B2 /* Networking-MotionLab */,
+				437509CC2B7CED9800F0B5B2 /* Networking-MotionLabTests */,
+				437509D62B7CED9800F0B5B2 /* Networking-MotionLabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		437509BB2B7CED9300F0B5B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437509C82B7CED9700F0B5B2 /* Preview Assets.xcassets in Resources */,
+				437509C52B7CED9700F0B5B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437509CB2B7CED9800F0B5B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437509D52B7CED9800F0B5B2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		437509B92B7CED9300F0B5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437509C32B7CED9300F0B5B2 /* ContentView.swift in Sources */,
+				437509C12B7CED9300F0B5B2 /* Networking_MotionLabApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437509C92B7CED9800F0B5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437509D22B7CED9800F0B5B2 /* Networking_MotionLabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		437509D32B7CED9800F0B5B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				437509DE2B7CED9800F0B5B2 /* Networking_MotionLabUITestsLaunchTests.swift in Sources */,
+				437509DC2B7CED9800F0B5B2 /* Networking_MotionLabUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		437509CF2B7CED9800F0B5B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437509BC2B7CED9300F0B5B2 /* Networking-MotionLab */;
+			targetProxy = 437509CE2B7CED9800F0B5B2 /* PBXContainerItemProxy */;
+		};
+		437509D92B7CED9800F0B5B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 437509BC2B7CED9300F0B5B2 /* Networking-MotionLab */;
+			targetProxy = 437509D82B7CED9800F0B5B2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		437509DF2B7CED9800F0B5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		437509E02B7CED9800F0B5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		437509E22B7CED9800F0B5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Networking-MotionLab/Preview Content\"";
+				DEVELOPMENT_TEAM = VQY9AMDBGK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RakhaFatih.Networking-MotionLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		437509E32B7CED9800F0B5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Networking-MotionLab/Preview Content\"";
+				DEVELOPMENT_TEAM = VQY9AMDBGK;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RakhaFatih.Networking-MotionLab";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		437509E52B7CED9800F0B5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQY9AMDBGK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RakhaFatih.Networking-MotionLabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Networking-MotionLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Networking-MotionLab";
+			};
+			name = Debug;
+		};
+		437509E62B7CED9800F0B5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQY9AMDBGK;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RakhaFatih.Networking-MotionLabTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Networking-MotionLab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Networking-MotionLab";
+			};
+			name = Release;
+		};
+		437509E82B7CED9800F0B5B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQY9AMDBGK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RakhaFatih.Networking-MotionLabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Networking-MotionLab";
+			};
+			name = Debug;
+		};
+		437509E92B7CED9800F0B5B2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VQY9AMDBGK;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.RakhaFatih.Networking-MotionLabUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Networking-MotionLab";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		437509B82B7CED9300F0B5B2 /* Build configuration list for PBXProject "Networking-MotionLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437509DF2B7CED9800F0B5B2 /* Debug */,
+				437509E02B7CED9800F0B5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437509E12B7CED9800F0B5B2 /* Build configuration list for PBXNativeTarget "Networking-MotionLab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437509E22B7CED9800F0B5B2 /* Debug */,
+				437509E32B7CED9800F0B5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437509E42B7CED9800F0B5B2 /* Build configuration list for PBXNativeTarget "Networking-MotionLabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437509E52B7CED9800F0B5B2 /* Debug */,
+				437509E62B7CED9800F0B5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		437509E72B7CED9800F0B5B2 /* Build configuration list for PBXNativeTarget "Networking-MotionLabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				437509E82B7CED9800F0B5B2 /* Debug */,
+				437509E92B7CED9800F0B5B2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 437509B52B7CED9300F0B5B2 /* Project object */;
+}
